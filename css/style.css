@@ -1,5 +1,6 @@
 @import url(./reset.css);
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600,700|Roboto:300,900&display=swap') img {
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600,700|Roboto:300,900&display=swap');
+img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -209,8 +210,7 @@ ul {
     margin-bottom: 15px;
 }
 
-.news-name,
-.news-text {
+.news-name {
     font-weight: 700;
     font-size: 18px;
     color: #555252;
@@ -227,7 +227,7 @@ ul {
 .news-text {
     font-size: 14px;
     line-height: 20px;
-    font-weight: 500;
+    font-weight: 400;
     color: #555252;
     margin-bottom: 30px;
 }

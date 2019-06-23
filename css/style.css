@@ -101,15 +101,12 @@ ul {
     height: 323px;
     float: left;
     margin-right: 20px;
+    margin-bottom: 30px;
     background-color: #E9F0FD;
 }
 
 .items:nth-child(4n+4) {
     margin-right: 0;
-}
-
-.item:not(:nth-last-child(-n+4)) {
-    margin-bottom: 0;
 }
 
 .item-name {
@@ -152,7 +149,8 @@ ul {
     right: 0;
 }
 
-.item p {
+.item-price,
+.item-name {
     position: absolute;
     bottom: 0;
 }
@@ -227,7 +225,6 @@ ul {
 }
 
 .news-text {
-    display: inline-block;
     font-size: 14px;
     line-height: 20px;
     font-weight: 500;
@@ -242,7 +239,6 @@ ul {
     font-size: 16px;
     color: #f6fbfa;
     background-color: #4EC6AB;
-    border-radius: 5px;
     border: none;
     cursor: pointer;
     margin-bottom: 80px;

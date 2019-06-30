@@ -202,9 +202,8 @@ ul {
     margin-bottom: 30px;
 }
 
-.btn-read-more button {
+.btn-read-more a {
     border: none;
-    margin-bottom: 80px;
     background-color: hsl(167, 51%, 54%);
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -213,4 +212,8 @@ ul {
     text-decoration: none;
     padding: 15px 35px;
     border-radius: 3px;
+}
+
+.btn-read-more {
+    margin-bottom: 80px;
 }

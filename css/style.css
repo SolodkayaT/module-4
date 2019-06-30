@@ -10,6 +10,9 @@ ul {
 .wrapper {
     width: 1115px;
     margin: 0 auto;
+}
+
+.block-navigation {
     padding-top: 40px;
 }
 
@@ -18,13 +21,17 @@ ul {
     text-transform: uppercase;
     font-weight: 300;
     font-size: 30px;
-    color: hsl(0, 0%, 32%);
-    float: left;
+    color: #515151;
     text-decoration: none;
+    padding-top: 40px;
 }
 
-.logo a::first-letter {
-    color: hsl(168, 76%, 42%);
+.logo {
+    float: left;
+}
+
+h1::first-letter {
+    color: #19bc9b;
     font-weight: 900;
 }
 
@@ -38,7 +45,7 @@ ul {
 
 .navigation a {
     text-transform: uppercase;
-    color: hsl(0, 0%, 32%);
+    color: #515151;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -57,7 +64,7 @@ ul {
 }
 
 .navigation a:hover {
-    color: hsl(168, 76%, 42%);
+    color: #19bc9b;
 }
 
 .clearfix::after {
@@ -80,7 +87,7 @@ ul {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
-    color: hsl(0, 0%, 32%);
+    color: #515151;
     font-size: 48px;
 }
 
@@ -90,11 +97,9 @@ ul {
     display: block;
     width: 165px;
     height: 6px;
-    background-color: hsl(168, 76%, 42%);
+    background-color: #19bc9b;
     content: '';
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px auto 85px;
 }
 
 .item {
@@ -102,7 +107,7 @@ ul {
     float: left;
     margin-right: 30px;
     margin-bottom: 30px;
-    background-color: hsl(219, 83%, 95%);
+    background-color: #323232;
 }
 
 .content li:nth-child(4n+4) {
@@ -114,10 +119,11 @@ ul {
 }
 
 .item-name {
-    background-color: hsla(0, 0%, 20%, 1);
+    background-color: #333333;
+    opacity: 1;
     font-family: 'Roboto', sans-serif;
+    color: #ffffff;
     font-weight: 900;
-    color: hsl(0, 0%, 100%);
     font-size: 18px;
     text-transform: uppercase;
     float: left;
@@ -129,15 +135,16 @@ ul {
 }
 
 .item-price {
-    background-color: hsla(0, 0%, 20%, 0.4);
+    background-color: #ffffff66;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    color: hsl(0, 0%, 100%);
+    color: #ffffff;
     font-size: 18px;
     text-transform: uppercase;
     padding-top: 10px;
     padding-bottom: 11px;
-    padding-right: 10px;
+    padding-right: 13px;
+    padding-left: 201px;
     text-align: right;
 }
 
@@ -145,12 +152,9 @@ ul {
     text-decoration: none;
 }
 
+.item:hover,
 .item-name-hover:hover .item-name {
-    background-color: hsl(168, 76%, 42%);
-}
-
-.item-price-hover:hover .item-price {
-    background-color: hsla(168, 54%, 67%, 0.43);
+    background-color: #19bc9b;
 }
 
 .content::after {
@@ -183,7 +187,7 @@ ul {
 .news-name {
     font-weight: 700;
     font-size: 18px;
-    color: hsl(0, 2%, 33%);
+    color: #555252;
     line-height: 30px;
 }
 
@@ -198,17 +202,17 @@ ul {
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
-    color: hsl(0, 2%, 33%);
+    color: #555252;
     margin-bottom: 30px;
 }
 
 .btn-read-more a {
     border: none;
-    background-color: hsl(167, 51%, 54%);
+    background-color: #4dc5ab;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 300;
-    color: hsl(168, 38%, 97%);
+    color: #f4faf9;
     text-decoration: none;
     padding: 15px 35px;
     border-radius: 3px;
